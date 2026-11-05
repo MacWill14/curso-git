@@ -10,4 +10,7 @@ public class Conta {
         this.saldo = this.saldo - valor;
     }
     
+    public double consultarSaldo() {
+        return this.saldo;
+    }
 }
